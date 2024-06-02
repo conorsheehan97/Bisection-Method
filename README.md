@@ -1,10 +1,81 @@
 # Bisection-Method
-Object Oriented implementation of the Bisectional method in C++. 
+This repository contains an object-oriented implementation of the Bisection Method in C++. The project is structured to facilitate the understanding and application of the Bisection Method for finding roots of functions.
 
-See the Bisection_Method PDF for a brief Mathematical Introduction to the Bisection Method. The 3 Attached Graph methods were generated usign the Gnuplot Application, and show the functions checked on their associated intervals. 
+## Contents
+### C++ Files:
+ - Bisection.h: Class declaration.
+ - Bisection.cpp: Method implementation file.
+ - Test_File.cpp: Test file to demonstrate the functionality.
 
-In this project, we create Bisection Objects, with interval limit attributes, and tolerance attributes. Each object has a findRoot method, which is overloaded to check a default function (Shown in Graph_1), and to be abel to check provided double type functions. We check the Graph_2 & Graph_3 functions in this project, and find the roots accurately. 
+### Graphs: 
+ - Generated using the Gnuplot application.
 
-Included is the Class Declaration (Bisection.h), Method Implementation File (Bisection.cpp) and a test file Test_File.cpp. 
+### PDF Document: 
+Bisection_Method.pdf provides a brief mathematical introduction to the Bisection Method.
+
+## Project Overview
+### Bisection Method
+The Bisection Method is a root-finding method that repeatedly divides an interval in half and selects the subinterval in which the root lies. This process is continued until the root is found to the desired tolerance.
+
+## Implementation Details
+### Bisection Objects:
+#### Attributes:
+ - Interval limits.
+ - Tolerance.
+#### Methods:
+ - findRoot: Overloaded to check a default function (shown in Graph_1) and to check user-provided double type functions.
+#### Graphs:
+ - Graph_1: Default function.
+ - Graph_2: User-provided function.
+ - Graph_3: User-provided function.
+
+## Graphs
+The project includes three graphs generated using Gnuplot:
+ - Graph_1: Default function.
+ - Graph_2: User-provided function.
+ - Graph_3: User-provided function.
+   
+These graphs illustrate the functions checked on their associated intervals and demonstrate the accuracy of the Bisection Method in finding roots.
+
+
+Object-Oriented Bisection Method in C++
+This repository contains an object-oriented implementation of the Bisection Method in C++. The project is structured to facilitate the understanding and application of the Bisection Method for finding roots of functions.
+
+Contents
+C++ Files:
+Bisection.h: Class declaration.
+Bisection.cpp: Method implementation file.
+Test_File.cpp: Test file to demonstrate the functionality.
+Graphs: Generated using the Gnuplot application.
+PDF Document: Bisection_Method.pdf provides a brief mathematical introduction to the Bisection Method.
+Project Overview
+Bisection Method
+The Bisection Method is a root-finding method that repeatedly divides an interval in half and selects the subinterval in which the root lies. This process is continued until the root is found to the desired tolerance.
+
+Implementation Details
+Bisection Objects:
+Attributes:
+Interval limits.
+Tolerance.
+Methods:
+findRoot: Overloaded to check a default function (shown in Graph_1) and to check user-provided double type functions.
+Graphs:
+Graph_1: Default function.
+Graph_2: User-provided function.
+Graph_3: User-provided function.
+Graphs
+The project includes three graphs generated using Gnuplot:
+
+Graph_1: Default function.
+Graph_2: User-provided function.
+Graph_3: User-provided function.
+These graphs illustrate the functions checked on their associated intervals and demonstrate the accuracy of the Bisection Method in finding roots.
+
+## Dependencies
+ - C++ Compiler: Any standard C++ compiler (e.g., g++).
+ - Gnuplot: For generating and visualizing graphs.
+
+## Conclusion
+This project provides an object-oriented implementation of the Bisection Method in C++, demonstrating its application in finding roots of functions accurately. The accompanying graphs and PDF document offer additional insights into the method and its mathematical foundation.
 
 
